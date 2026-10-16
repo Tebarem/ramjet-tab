@@ -1,0 +1,9 @@
+{
+  "id": "tab",
+  "name": "TAB",
+  "version": "0.1.0",
+  "api": "1.0",
+  "main": "Tab.TabPlugin",
+  "description": "Tab list: header and footer, per-viewer names, sorting, latency and nametag prefixes and suffixes, placeholders",
+  "authors": ["Ramjet"]
+}
