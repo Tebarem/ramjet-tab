@@ -11,11 +11,11 @@ other tab plugins.
 Build and test:
 
 ```bash
-RAMJET_HOME=/path/to/ramjet/build/bin dotnet build src/tab.csproj
+dotnet build src/tab.csproj
 dotnet run --project tests/Tab.Tests
 ```
 
-`RAMJET_HOME` is the engine's build output (the folder with `dotnet/Mc.Scripting.Api.dll`). The test project needs no engine build.
+The plugin builds against the public [`Ramjet.Api`](https://www.nuget.org/packages/Ramjet.Api) package (`1.0.0-preview.4` or newer) from nuget.org; no engine build is needed.
 
 Settings: `data/config.json` (written with defaults on first run). Commands: `/tab reload`, `/tab dump <player>` (permission `tab.admin`).
 
